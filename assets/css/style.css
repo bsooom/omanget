@@ -1,7 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Amiri&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@400..700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@100..900&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Tajawal:wght@200;300;400;500;700;800;900&display=swap');
 
 html,
 body {
@@ -12,10 +13,9 @@ body {
   padding: 0;
   margin-left: 0;
   margin-right: 0;
-  font-family: 'Messiri';
+  font-family: "Tajawal", sans-serif;
   font-weight: 300;
 }
-
 
 a,
 a:hover,
@@ -57,7 +57,7 @@ p {
 }
 
 a {
-  font-family: 'customfont';
+  /* font-family: 'customfont'; */
 }
 
 .clear {
@@ -103,7 +103,7 @@ a {
 .container .fields .field .disc {
   font-size: 1.5rem;
   color: #444;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  /* font-family: Georgia, 'Times New Roman', Times, serif; */
 
 }
 
@@ -165,7 +165,7 @@ a {
   padding: 20px;
   font-size: 1.5rem;
   color: #ffffff;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  /* font-family: Georgia, 'Times New Roman', Times, serif; */
 }
 
 .Achievement {
@@ -200,7 +200,7 @@ a {
   padding: 20px;
   font-size: 1.5rem;
   color: #637a7a;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  /* font-family: Georgia, 'Times New Roman', Times, serif; */
   position: relative;
 }
 
@@ -221,21 +221,21 @@ h5 {
 h1 {
   font-size: 4rem;
   /* line-height: 4rem; */
-  font-family: 'Rubik';
+  /* font-family: 'Rubik'; */
   color: #fff;
 }
 
 h2 {
   font-size: 2rem;
   line-height: 3rem;
-  font-family: 'Rubik';
+  /* font-family: 'Rubik'; */
   margin-bottom: 35px;
 }
 
 h3 {
   font-size: 1.5rem;
-  line-height: 5rem;
-  font-family: 'Rubik';
+  line-height: 3rem;
+  font-family: "Tajawal", sans-serif;
   margin-bottom: 3.5rem;
 }
 
@@ -249,7 +249,7 @@ h5 {
   font-size: 1.249375rem;
   margin-bottom: 1rem;
   color: #696f7c;
-  font-family: 'Messiri';
+  /* font-family: 'Messiri'; */
 }
 
 h6 {
@@ -260,7 +260,7 @@ h6 {
 p {
   line-height: 1.875rem;
   font-size: 1.125rem;
-  font-family: 'customfont';
+  /* font-family: 'customfont'; */
 }
 
 p:last-child {
@@ -268,9 +268,11 @@ p:last-child {
 }
 
 section {
-  height: 100vh;
+  height: auto;
 }
-
+.light{
+  padding: 90px 0px;
+}
 .dark {
   height: auto;
   width: auto;
@@ -295,10 +297,21 @@ ul {
 }
 
 .heading {
-  margin-top: 4rem;
 
-  margin-bottom: 4rem;
 }
+.heading {
+  margin-top: 4rem;
+  margin-bottom: 4rem; 
+   font-size: 70px;
+  /* text-transform: uppercase; */
+  color: #565656;
+  font-family: 'Cairo';
+  /* text-transform: uppercase; */
+  text-align: center;
+  /* pointer-events: none; */
+  position: relative;
+}
+
 
 .overlay {
   background-color: rgba(0, 0, 0, 0.3);
@@ -446,7 +459,7 @@ ul {
 
 .navbar-default .navbar-nav>li>a {
   color: #fff;
-  font-family: 'customfont';
+  /* font-family: 'customfont'; */
   font-size: 1.125rem;
 }
 
@@ -492,7 +505,7 @@ ul {
 .home .main_home h1.subtitle {
   color: #fff;
   padding-bottom: 25px;
-  font-family: 'Amiri';
+  /* font-family: 'Amiri'; */
   font-size: 90px;
 }
 
@@ -551,7 +564,7 @@ ul {
 
 .block-title {
   font-size: 52px;
-  font-family: 'customfont';
+  /* font-family: 'customfont'; */
   font-weight: bold;
 }
 
@@ -561,9 +574,9 @@ ul {
 }
 
 .about-main h3 {
-  font-family: 'Roboto', sans-serif;
+  /* font-family: 'Roboto', sans-serif;
   font-weight: 600;
-  font-size: 20px;
+  font-size: 20px; */
 }
 
 .left-btn {
@@ -635,7 +648,7 @@ ul {
   font-size: 1.125rem;
   max-width: 48%;
   margin: 0 auto;
-  font-family: 'customfont';
+  /* font-family: 'customfont'; */
 }
 
 
@@ -671,7 +684,7 @@ ul {
   padding: 43px 0px 15px;
   margin: 0 14px;
   color: #fff;
-  font-family: 'Amiri';
+  /* font-family: 'Amiri'; */
   text-transform: uppercase;
   letter-spacing: 1.9px;
   position: relative;
@@ -729,17 +742,6 @@ ul {
 }
 
 
-.heading {
-  /* margin-top: 20px; */
-  font-size: 6rem;
-  text-transform: uppercase;
-  color: #565656;
-  /* -webkit-text-stroke: .05rem #0d3948; */
-  letter-spacing: .2rem;
-  text-align: center;
-  pointer-events: none;
-  position: relative;
-}
 
 .dark .heading {
   color: #e5e5e5;
@@ -867,12 +869,12 @@ ul {
   padding: 20px;
   font-size: 1.5rem;
   color: #ffffff;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  /* font-family: Georgia, 'Times New Roman', Times, serif; */
 }
 .plans .future h5 {
  
   color: #ffffff;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  /* font-family: Georgia, 'Times New Roman', Times, serif; */
 }
 
 .plans .future p {
