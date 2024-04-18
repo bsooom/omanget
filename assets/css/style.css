@@ -1,7 +1,4 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Amiri&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@400..700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@100..900&display=swap'); */
+
 @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Tajawal:wght@200;300;400;500;700;800;900&display=swap');
 
 html,
@@ -53,6 +50,7 @@ a span {
 
 p {
   margin: 0 0 15px;
+  padding: 12px;
 
 }
 
@@ -101,7 +99,7 @@ a {
 }
 
 .container .fields .field .disc {
-  font-size: 1.5rem;
+  /* font-size: 1.5rem; */
   color: #444;
   /* font-family: Georgia, 'Times New Roman', Times, serif; */
 
@@ -237,6 +235,7 @@ h3 {
   line-height: 3rem;
   font-family: "Tajawal", sans-serif;
   margin-bottom: 3.5rem;
+  padding: 0px 15px;
 }
 
 h4 {
@@ -271,7 +270,7 @@ section {
   height: auto;
 }
 .light{
-  padding: 90px 0px;
+  padding: 0px 0px 90px 0px;
 }
 .dark {
   height: auto;
@@ -295,23 +294,6 @@ ul {
   padding: 0;
   list-style: none;
 }
-
-.heading {
-
-}
-.heading {
-  margin-top: 4rem;
-  margin-bottom: 4rem; 
-   font-size: 70px;
-  /* text-transform: uppercase; */
-  color: #565656;
-  font-family: 'Cairo';
-  /* text-transform: uppercase; */
-  text-align: center;
-  /* pointer-events: none; */
-  position: relative;
-}
-
 
 .overlay {
   background-color: rgba(0, 0, 0, 0.3);
@@ -506,9 +488,14 @@ ul {
   color: #fff;
   padding-bottom: 25px;
   /* font-family: 'Amiri'; */
-  font-size: 90px;
+  font-size: 80px;
 }
-
+.home .main_home h1.stitle {
+  color: #ffffff;
+  padding-bottom: 25px;
+  font-family: 'Cairo';
+  font-size: 65px;
+}
 .home .main_home .video_play_icon a {
   width: 175px;
   height: 125px;
@@ -519,6 +506,24 @@ ul {
 
 }
 
+
+
+.heading {
+  margin-top: 2rem;
+  margin-bottom: 4rem; 
+   font-size: 60px;
+
+   color: #565656;
+  font-family: 'Cairo';
+
+  text-align: center;
+
+  position: relative;
+}
+
+
+
+/* 
 .home .main_home .video_play_icon a i {
   color: #fff;
   font-size: 4rem;
@@ -533,7 +538,7 @@ ul {
 .owl-theme .owl-dots .owl-dot:hover span {
   background: #fff;
 }
-
+ */
 
 
 
@@ -574,9 +579,9 @@ ul {
 }
 
 .about-main h3 {
-  /* font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 600;
-  font-size: 20px; */
+  font-size: 20px;
 }
 
 .left-btn {
@@ -602,12 +607,6 @@ ul {
 }
 
 /**                                   **/
-
-
-
-
-
-
 
 
 .head_title {
